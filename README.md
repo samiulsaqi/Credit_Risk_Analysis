@@ -2,7 +2,7 @@
 
 ## Overview of the analysis
 
-This analysis is being done to see which model provides a better result in predicting loan default risk. The initial analysis is done by oversampling the data with <b>RandomOverSampler</b> and <b>SMOTE</b> algorithms, and then undersampled by <b>ClusteredCentroids</b> algorithm. This helps in finding out the bias in the data. Later on, both the over and under sampling are combined by using the <b>SMOTEEN</b> algorithm. Finally, to reduce bias, <b>BalancedRandomClassifier</b> and <b>EasyEnsembleClassifier</b> is used. Overall, they are all used to answer one question, is any of them effective in predicting credit risk.
+This analysis is being done on a banks loans default dataset and using different machine learning models to see which model provides a better result in predicting loan default risk. The initial analysis is done by oversampling the data with <b>RandomOverSampler</b> and <b>SMOTE</b> algorithms, and then undersampled by <b>ClusteredCentroids</b> algorithm. This helps in finding out the bias in the data. Later on, both the over and under sampling are combined by using the <b>SMOTEEN</b> algorithm. Finally, to reduce bias, <b>BalancedRandomClassifier</b> and <b>EasyEnsembleClassifier</b> is used. Overall, they are all used to answer one question, is any of them effective in predicting credit risk.
 
 We will be using the <b>imbalanced-learn</b> and <b>scikit-learn</b> libraries from python to use these algorithms.
 
